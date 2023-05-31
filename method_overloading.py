@@ -4,7 +4,7 @@ In python the traditional method overloading as in C++ and Java is not possible.
 That's why we use multipledispatch library to achieve this.
 
 ? Method 1:
-If we use the traditional way to ovverlaod the method then we can only use the last
+If we use the traditional way to overload the method then we can only use the last
 or latest defined method.
 
 ? Method 2:
