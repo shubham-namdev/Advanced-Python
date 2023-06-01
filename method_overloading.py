@@ -18,11 +18,11 @@ def add(a: int, b:int) -> int:
     return a + b
 
 @dispatch(int, int, int)
-def add(a: int, b: int, c: int):
+def add(a: int, b: int, c: int) -> int:
     return a + b + c
-
+    
 @dispatch(str, int)
-def add(s: int, a: int):
+def add(s: int, a: int) -> int:
     return ord(s) + a
 
 print(add(5, 10))  
